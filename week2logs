@@ -1,0 +1,201 @@
+# week2 exercise observations
+--------------------------------------------------------------------------------------------------------
+1. **Command:** `$ cd ~`  
+    **Expectation:** what I expected is for it to display a lists of directories.  
+    **Outcome:** the command commited a alternation towards the running directroy towards the users home Directory, the representation of ("~") becomes a home directory.
+
+2. **Command:** `$ git init portfolio`  
+    **Expectation:** I anticipate that this command will save a portfolio of git.  
+    **Outcome:** what occurred the command formed a recent git repository within the "portfolio" within the directory, which then makes it easier to follow the modification of files with directory using git.
+
+3. **Command:** `$ cd portfolio`  
+    **Expectation:** I expect this to make changes to the portfolio.  
+    **Outcome:** what occurs from the commited command is that it forms (~/portfolio$) so it makes modification to the running directory which is the portfolio directory.
+
+4. **Command:** `$ ls -al`  
+    **Expectation:** the prediction is that it will only show 1 list.  
+    **Outcome:** the command executed showed all current files (ls), directories within the portfolio directory, hidden files get displayed as well (-al).
+
+5. **Command:** `$ git status`  
+    **Expectation:** It will show current information.  
+    **Outcome:** the effect of this command displayed the position of the git repository displaying details of untracked, changes being made or staged files.
+
+6. **Command:** `$ echo hello > .gitignore`  
+    **Expectation:** I forsee the command to print hello.  
+    **Outcome:** the code gets utilised to form a file known as .gitignore and within that the text hello.
+
+7. **Command:** `$ git add -A`  
+    **Expectation:** I intercept the command will add the -A to a file.  
+    **Outcome:** the command process all modifications inside the portfolio git repository creating a ready to be commited. it involves the recent .gitignore and the differnt chnages within the repository.
+
+8. **Command:** `$ git status`  
+    **Outcome:**  it just shows the current level of the git repository which is (new file: .gitignore).  
+
+9. **Command:** `$ git config --global user.email “<student_email>”`  
+    **Expectation:** I apprehend that it will use my student mail.  
+    **Outcome:** the command issued to form global git settings. so it creates the global user name for the git user.
+
+10. **Command:** `$ git config –global user.name “<student_name>”`  
+    **Expectation:** I foretell it will put my name on the user name.  
+    **Outcome:** just added the name to the global name to the Git.
+
+11. **Command:** `$ git commit -m “first commit, adding week 1 content”`  
+    **Expectation:** In my view I assume that it will add week 1 to git.  
+    **Outcome:** the effect of this order was that it generates a new commit with modifications to the git repository.
+
+12. **Command:** `$ git status`  
+    **Expectation:** In my judgement I see it showing me the current standing of git.  
+    **Outcome:** the effect of this command displayed the position of the git repository displaying details of untracked, changes being made or staged files.
+
+13. **Command:** `$ git push`  
+    **Expectation:** I call that this will force to push the files to git.  
+    **Outcome:** the "Git Push" order becomes utilised to sync the changes that has been created into the local csgitlab remote server.
+
+14. **Command:** `$ git remote add origin https://csgitlab.reading.ac.uk/<student_id>/cs1pc20_portfolio.git`  
+    **Expectation:** I expect this source code to add a file to my Csgitlab account.  
+    **Outcome:** The URL commands it to find my csgitlab and with my student ID it finds my user and the file known as cs1pc20_portfolio, with the "git remote add origin" just directs the compiler to give intsructions to Git to connect a remote respiratory with it being called origin.
+
+15. **Command:** `$ git push –set-upstream origin master`  
+    **Expectation:** I figure this will add a connection between push and orgin master.  
+    **Outcome:** this source code forces the local "master" branch towards the remote repository known as "origin" so it creates a recording of movements it will permit for the acess to 'git push' & 'git pull' not requiring to categorize branches, i will only need to call to master branch within the origin remote.
+
+16. **Command:** `$ git status`  
+    **Outcome:**  The command demonstrates the up-to-date progress of GIT respiratory such as untracked, modified and staged files.   
+
+17. **Command:** `$ echo “# CS1PC20 Portfolio” > readme.md`  
+    **Expectation:** I anticipate it to print “# CS1PC20 Portfolio”.  
+    **Outcome:** here the command 'echo' is utilised to display a string > readme.md diverts this to string to a known file called 'readme.md' so it creates the message ''# CS1PC20 Portfolio''
+
+18. **Command:** `$ git add readme.md`  
+    **Expectation:** I suppose that it will add the readme.md to GIT.  
+    **Outcome:** the command makes the alteration OF THE 'README.MD' FILE TO THE NEXT COMMIT, so creating this to be prepared to be added in the upcoming commit.
+
+19. **Command:** `$ git commit -m “added readme file”`  
+    **Expectation:** I anticpiate that this will commit to the readme file.  
+    **Outcome:** 'git commit -m becomes utilised to commit staged modifications with a commit text, so it adds a readme file and creates modifications to the file within the respiratory records.
+
+20. **Command:** `$ git push`  
+    **Outcome:**  becomes utilised to sync local repository content to a remote repository.  
+    
+
+21. **Command:** `$ git config –global credential.helper cache`  
+    **Expectation:** My prediction is that it will make changes into the git global.  
+    **Outcome:** The intsructions will be making modifications to global git settings of 'credential.helper cache' so it creates a caching structure to keep my git credentials so I don't need to type them in constantly when I am encountering with a remote git repository.
+
+22. **Command:** `$ git branch week2`  
+    **Expectation:** I figure this will make a week 2.  
+    **Outcome:** 'Git branch' forms a second branch known as 'week2' within git repository.
+
+23. **Command:** `$ git checkout week2`  
+    **Expectation:** I forsee that this will show me the week2 branch activities.  
+    **Outcome:** the 'git checkout' makes it for me so that it changes to the branch week2 so I can make any modifications to the specific week2 branch.
+
+24. **Command:** `$ mkdir week2`  
+    **Expectation:** I imagine this will show me week2.  
+    **Outcome:** 'mkdir' becomes utilised to form a new directory known as 'week2' within the local repository.
+
+25. **Command:** `$ echo “# Week 2 exercise observations” > week2/report.md`  
+    **Expectation:** I anticipate this will print “# Week 2 exercise observations” into the week 2 report.md.  
+    **Outcome:** so what occurs is that it forms a new file known as 'report.md' within the week2 and forms a message of “# Week 2 exercise observations”.
+ 26. **Command:** `$ git status`  
+    **Outcome:**  this will show me the current position of the Git repository and any committed modifications.  
+     
+
+27. **Command:** `$ git add week2`  
+    **Expectation:** I foresee that it gets added within THE GIT.  
+    **Outcome:** 'git add' creates and prepares the week2 directory, for the upcoming commit.
+
+28. **Command:** `$ git commit -m “added week 2 folder and report.md”`  
+    **Expectation:** In my estimation it commits to the week2 folder and report.md making changes to it.  
+    **Outcome:** the order 'git commit -m' becomes utilised to form a new commit with a text and so the command creates the text 'added week 2 folder and report.md' it tracks the modification to the week2 directory.
+
+29. **Command:** `$ git push`  
+    **Outcome:**  becomes utilised to sync local repository content to a remote repository so it syncs it to the remote respiratory for my local week2.  
+    
+
+30. **Command:** `$ git checkout master`  
+    **Expectation:** from observations of previous lines I can assume that this will change branch to master.  
+    **Outcome:** the command switches to master branch so being in the leading branch of the respiratory.
+
+31. **Command:** `$ ls -al`  
+    **Expectation:** again from previous work I can anticipate this to give information of all files and directories.  
+    **Outcome:** this following command showcases all the information of the master branch such as files and directories.
+
+32. **Command:** `$ git checkout week2`  
+    **Expectation:** learning from previous lines I now predict that this will again do the following: change to week2 branch.  
+    **Outcome:** the command transferred over to the week2 branch where I can make control and make modification to it.
+
+33. **Command:** `$ ls -al`  
+    **Outcome:**  this following command showcases all the information of the week2 branch such as files and directories.  
+     
+
+34. **Command:** `$ git checkout master`  
+    **Outcome:**  the command switches to master branch so being in the leading branch of the respiratory.  
+   
+
+35. **Command:** `$ git merge week2`  
+    **Expectation:** I envision that with the word merge will mix week2.  
+    **Outcome:** the command uses 'git merge' to bind the modifications I commited in week2 branch to the master branch making the master branch to build in the changes from week2.
+
+36. **Command:** `$ ls -al`  
+    **Outcome:** showcases all the information of the master branch after combining the alternciations from week 2 branch such as files and directories.  
+    
+
+37. **Command:** `$ git push`  
+    **Outcome:**It forces the mixed modification FROM MY LCOAL 'MASTER' BRANCH TO the remote respiratory making it sync the combined changes from week 2 and master to the remote server.  
+   
+
+38. **Command:** `$ rm -r week2`  
+    **Expectation:** I expect it to delete the week2.  
+    **Outcome:** the instructions make it so 'rm -r' erases week2 directory.
+
+39. **Command:** `$ rm -r week1`  
+    **Expectation:** I expect it to delete the week1.  
+    **Outcome:** the instructions make it so 'rm -r' erases week1 directory.
+
+40. **Command:** `$ ls -al`  
+    **Outcome:** it displays the information of the recent directory after erasing week1 & week2 directories.  
+    
+
+41. **Command:** `$ git status`  
+    **Outcome:**  this will show me the current position of the Git respiratory and any committed modifications. so this displays the recent position of the git respiratory after erasing the directories and files.  
+   
+
+42. **Command:** `$ git stash`  
+    **Expectation:** I reckon that this is going to save the committed changes.  
+    **Outcome:** this command 'git stash' briefly reserves the modifications which have been not been committed, so essentially it can give control to transfer branches or execute different actions without discarding the recent alterations made. so this stashes the recent alterations creating the directory being empty.
+
+43. **Command:** `$ git stash drop`  
+    **Expectation:** I estimate that this will remove the saved stash.  
+    **Outcome:** the output of this order does the following: it discards the current stash formed with 'git stash' so discarding the stashed changes. so it discards the last stash removing the temporarily saved changes.
+
+44. **Command:** `$ ls -al`  
+    **Expectation:** this following command showcases all the information of the recent directoriesaffter discarding the portfolio directory such as files and directories.  
+    **Outcome:**  this following command showcases all the information of the recent directories after discarding the portfolio directory such as files and directories.  
+
+45. **Command:** `$ cd ~`  
+    **Expectation:** the command committed an alteration towards the running directory towards the user's home Directory, the representation of ("~") becomes a home directory.  
+    **Outcome:** this command committed an alteration towards the running directory towards the user's home Directory, the representation of ("~") becomes a home directory.
+
+46. **Command:** `$ cp -r portfolio portfolio_backup`  
+    **Expectation:** It will create a backup.  
+    **Outcome:** the instruction 'cp -r' becomes utilised to duplicate the portfolio directory and information to a different directory called portfolio_backup.
+
+47. **Command:** `$ rm -rf portfolio`  
+    **Expectation:** I anticipate it to delete the file.  
+    **Outcome:** this order 'rm -rf' becomes utilised to discard the portfolio directory and its information.
+
+48. **Command:** `$ ls -al`  
+    **Expectation:** this following command showcases all the information of the recent directories after discarding the portfolio directory such as files and directories.  
+    **Outcome:** This command showcases all the information of the recent directories after discarding the portfolio directory such as files and directories. 
+
+49. **Command:** `$ git clone https://csgitlab.reading.ac.uk/<student_id>/cs1pc20_portfolio portfolio`  
+    **Expectation:** this will duplicate the portfolio making it a replica.  
+    **Outcome:** It duplicated the portfolio making it a replica
+
+50. **Command:** `$ ls -al`  
+     **Expectation:** will show information of directories
+     **Outcome:** this following command showcases all the information of the recent directories after replicating the remote repository into a local directory such as portfolio.  
+--------------------------------------------------------------------------------------------------------
+
+
